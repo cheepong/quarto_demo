@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": ".",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nimport numpy as np\nimport pandas as pd\nimport plotly.express as px\n\ndf = px.data.gapminder().query(\"continent=='Oceania'\")\nfig = px.line(df, x=\"year\", y=\"lifeExp\", color=\"country\")\nfig.show()"
+  }
+]

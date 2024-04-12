@@ -1,0 +1,17 @@
+---
+title: "."
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+```{python}
+import numpy as np
+import pandas as pd
+import plotly.express as px
+
+df = px.data.gapminder().query("continent=='Oceania'")
+fig = px.line(df, x="year", y="lifeExp", color="country")
+fig.show()
+```
